@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { PacmanLoader } from 'react-spinners';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './Projects.css';
 
 export default function Projects() {
     const url = 'https://api.github.com/users/mlvestlund/repos';
@@ -11,10 +11,15 @@ export default function Projects() {
     useEffect(() => {
         fetch(url)
             .then(resp => resp.json())
+            .then((data) => {
+                setTimeout(() => {
+                    setRepos(data);
+                    setIsLoading(false)
+                }, 3000)
+            })
             .catch(error => console.log(error))
     }, [])
 
-    // initialt visas detta (spinner) men när datan hämtas så kommer denna vara false.
     if (isLoading) {
         return <div><PacmanLoader color="#666dcb" /></div>
     }
@@ -33,9 +38,7 @@ export default function Projects() {
                         <Card.Text>
                             <p>{repo.language}</p>
                         </Card.Text>
-                        {/* här la jag en "a-tagg" inuti en knapp men går att göra på olika sätt.
-                            Viktigt är att ersätta värdet i href med resultatet av repo.html_url så att den kopplas rätt.
-                            Läs gärna mer om vad target och rel gör då det kan vara intressant :) */}
+                        {}
                         <Button variant="warning"><a className="button" href={repo.html_url} target="_blank" rel="noreferrer">Till Repon</a></Button>
                     </Card.Body>
                 </Card>
