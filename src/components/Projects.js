@@ -8,7 +8,7 @@ export default function Projects() {
     const url = 'https://api.github.com/users/mlvestlund/repos';
     const [isLoading, setIsLoading] = useState(true);
     const [repos, setRepos] = useState([]);
-    
+
     useEffect(() => {
         fetch(url)
             .then(resp => resp.json())
@@ -16,7 +16,7 @@ export default function Projects() {
                 setTimeout(() => {
                     setRepos(data);
                     setIsLoading(false)
-                }, 3000)
+                })
             })
             .catch(error => console.log(error))
     }, [])

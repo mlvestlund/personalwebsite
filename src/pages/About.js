@@ -25,7 +25,7 @@ const About = () => {
                 </section>
             </article>
         </main>
-    )
-}
+    );
+};
 
 export default About;

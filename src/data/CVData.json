@@ -1,30 +1,30 @@
 {
-    "workExperience": [
-      {
-        "position": "Pharmacist",
-        "employer": "Apotekskonsulterna",
-        "duration": "November 2022 - August 2023",
-        "responsibilities": "In this role, I have undertaken assignments at Apoteket AB in Östersund, Leksand, Säffle, and Karlstad, as well as at ApoEx in Stockholm. At ApoEx, I have been involved in the final quality control before the delivery of orders."
-      },
-      {
-        "position": "Pharmacist",
-        "employer": "Apoteket AB",
-        "duration": "October 2020 - November 2022",
-        "responsibilities": "I have been stationed at pharmacies in Krokom, Änge, Östersund, Bräcke, Sunne, Forshaga, and Karlstad. In addition to my pharmaceutical duties, I have also been involved in inventory management, campaigns, revisions, and training newly hired employees."
-      }
-    ],
-    "education": [
-      {
-        "degree": "Fullstack .NET",
-        "institution": "Chas Academy",
-        "duration": "September 2023 - ",
-        "details": "Currently enrolled in a full-stack .NET training program, specializing in the creation and maintenance of web and enterprise applications. The program emphasizes C# programming, backend development, and database management, while also providing skills in frontend development with JavaScript."
-      },
-      {
-        "degree": "Bachelor of Science in Pharmacy",
-        "institution": "Umeå University",
-        "duration": "September 2015 - June 2020",
-        "details": "In addition to the regular courses, I opted for a course in Geriatric Pharmacotherapy. Furthermore, I pursued additional studies in Pharmacognosy beyond the program requirements."
-      }
-    ]
-  }
+  "workExperience": [
+    {
+      "position": "Pharmacist",
+      "employer": "Apotekskonsulterna",
+      "duration": "November 2022 - August 2023",
+      "responsibilities": "In this role, I have undertaken assignments at Apoteket AB in Östersund, Leksand, Säffle, and Karlstad, as well as at ApoEx in Stockholm. At ApoEx, I have been involved in the final quality control before the delivery of orders."
+    },
+    {
+      "position": "Pharmacist",
+      "employer": "Apoteket AB",
+      "duration": "October 2020 - November 2022",
+      "responsibilities": "I have been stationed at pharmacies in Krokom, Änge, Östersund, Bräcke, Sunne, Forshaga, and Karlstad. In addition to my pharmaceutical duties, I have also been involved in inventory management, campaigns, revisions, and training newly hired employees."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Fullstack .NET",
+      "institution": "Chas Academy",
+      "duration": "September 2023 - ",
+      "details": "Currently enrolled in a full-stack .NET training program, specializing in the creation and maintenance of web and enterprise applications. The program emphasizes C# programming, backend development, and database management, while also providing skills in frontend development with JavaScript."
+    },
+    {
+      "degree": "Bachelor of Science in Pharmacy",
+      "institution": "Umeå University",
+      "duration": "September 2015 - June 2020",
+      "details": "In addition to the regular courses, I opted for a course in Geriatric Pharmacotherapy. Furthermore, I pursued additional studies in Pharmacognosy beyond the program requirements."
+    }
+  ]
+}
